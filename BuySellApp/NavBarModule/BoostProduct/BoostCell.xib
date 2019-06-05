@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="BoostCell" rowHeight="136" id="KGk-i7-Jjw" customClass="BoostCell" customModule="Keeno" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="381" height="136"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="381" height="135.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S1S-vq-dwf">
+                        <rect key="frame" x="16" y="11" width="349" height="114"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Basic Plan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a21-3q-3h3">
+                                <rect key="frame" x="20" y="17" width="74.5" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" red="0.97577637429999997" green="0.97782808539999999" blue="0.99526697399999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10TK" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eG8-AH-BNm">
+                                <rect key="frame" x="25" y="45" width="49" height="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="0.97577637429999997" green="0.97782808539999999" blue="0.99526697399999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1 week" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="epr-il-ebD">
+                                <rect key="frame" x="20" y="77" width="50.5" height="20"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                                <color key="textColor" red="0.97577637429999997" green="0.97782808539999999" blue="0.99526697399999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5XL-Qp-bFA">
+                                <rect key="frame" x="229" y="37" width="100" height="40"/>
+                                <color key="backgroundColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="6gK-EG-MFT"/>
+                                    <constraint firstAttribute="width" constant="100" id="NhB-jx-Uf2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="17"/>
+                                <color key="tintColor" red="0.97577637429999997" green="0.97782808539999999" blue="0.99526697399999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Boost Now">
+                                    <color key="titleColor" red="0.97577637429999997" green="0.97782808539999999" blue="0.99526697399999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.01327686757" green="0.4633238912" blue="0.98470920319999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="a21-3q-3h3" firstAttribute="leading" secondItem="S1S-vq-dwf" secondAttribute="leading" constant="20" id="LjR-m6-CNm"/>
+                            <constraint firstAttribute="trailing" secondItem="5XL-Qp-bFA" secondAttribute="trailing" constant="20" id="Llr-VG-TRp"/>
+                            <constraint firstItem="eG8-AH-BNm" firstAttribute="top" secondItem="a21-3q-3h3" secondAttribute="bottom" constant="8" id="ScD-Sc-Hol"/>
+                            <constraint firstItem="epr-il-ebD" firstAttribute="leading" secondItem="a21-3q-3h3" secondAttribute="leading" id="W38-xz-vXj"/>
+                            <constraint firstItem="eG8-AH-BNm" firstAttribute="centerY" secondItem="S1S-vq-dwf" secondAttribute="centerY" id="nbu-1Q-CLY"/>
+                            <constraint firstItem="5XL-Qp-bFA" firstAttribute="centerY" secondItem="eG8-AH-BNm" secondAttribute="centerY" id="oLN-ea-cxB"/>
+                            <constraint firstItem="epr-il-ebD" firstAttribute="top" secondItem="eG8-AH-BNm" secondAttribute="bottom" constant="8" id="qtK-dS-Pos"/>
+                            <constraint firstItem="eG8-AH-BNm" firstAttribute="leading" secondItem="S1S-vq-dwf" secondAttribute="leading" constant="25" id="ruD-t8-Jvy"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="S1S-vq-dwf" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="2ex-JI-HRI"/>
+                    <constraint firstItem="S1S-vq-dwf" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="bottomMargin" id="DUq-cw-qzY"/>
+                    <constraint firstItem="S1S-vq-dwf" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="Gla-qk-rMe"/>
+                    <constraint firstItem="S1S-vq-dwf" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="Poq-ge-plD"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="backgroundCellView" destination="S1S-vq-dwf" id="AN4-jo-iXb"/>
+                <outlet property="boostButton" destination="5XL-Qp-bFA" id="rXW-KT-U4L"/>
+                <outlet property="label1" destination="a21-3q-3h3" id="juI-q7-s9e"/>
+                <outlet property="label2" destination="eG8-AH-BNm" id="RlK-3C-428"/>
+                <outlet property="label3" destination="epr-il-ebD" id="w6n-HO-2L2"/>
+            </connections>
+            <point key="canvasLocation" x="135.19999999999999" y="149.32533733133434"/>
+        </tableViewCell>
+    </objects>
+</document>
